@@ -3,13 +3,12 @@
  */
 'use strict';
 
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import {
     Navigator,
     Text,
     View
-} from 'react-native'
-import { connect } from 'react-redux';
+} from 'react-native';
 import NavigationBar from 'react-native-navbar';
 
 // App Globals
@@ -20,7 +19,7 @@ import AppConfig from '../config';
 import NavbarElements from '../components/navbar-elements';
 import Home from '../screens/home';
 
-class AppContainer extends Component {
+export default class AppContainer extends Component {
 
     constructor(props) {
         super(props);
@@ -77,10 +76,3 @@ class AppContainer extends Component {
         );
     }
 }
-
-// Define which part of the state we're passing to this component
-const mapStateToProps = (state) => ({
-    state
-});
-
-export default connect(mapStateToProps)(AppContainer);

@@ -1,15 +1,15 @@
 'use strict';
 
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import {
     StyleSheet,
     View,
     Text
-} from 'react-native'
+} from 'react-native';
 
 // App Globals
-import AppStyles from '../styles'
-import AppConfig from '../config'
+import AppStyles from '../styles';
+import AppConfig from '../config';
 
 export default class CarouselScreen extends Component {
 

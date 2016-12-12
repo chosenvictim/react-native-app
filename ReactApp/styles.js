@@ -1,8 +1,5 @@
 /**
  * Global App Styles
- *
- * React Native Starter App
- * https://github.com/mcnamee/react-native-starter-app
  */
 'use strict';
 
@@ -14,7 +11,6 @@ import {
 // App Globals
 import AppConfig from './config';
 
-/* Styles ==================================================================== */
 module.exports = StyleSheet.create({
 	appContainer: {
         backgroundColor: "#813964",

@@ -1,20 +1,16 @@
 /**
  * Global App Config
- *
- * React Native Starter App
- * https://github.com/mcnamee/react-native-starter-app
  */
 'use strict';
 
 import Dimensions from 'Dimensions';
 var window = Dimensions.get('window');
 
-/* Setup ==================================================================== */
 exports.title = 'GlobalConfig';
 
 export default {
 	// App Details
-	appName: 'StarterKit',
+	appName: 'Sportshero',
 
 	// Window Dimensions
 	windowHeight: window.height,
@@ -30,9 +26,6 @@ export default {
 	// General Element Dimensions
 	navbarHeight: 64,
 	statusBarHeight: 22,
-
-	// Google Analytics - uses a 'dev' account while we're testing
-  gaTrackingId: (__DEV__) ? 'UA-84284256-2' : 'UA-84284256-1',
 
 	// Fonts
 	baseFont: "Avenir",
