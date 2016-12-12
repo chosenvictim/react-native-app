@@ -12,7 +12,7 @@ export default class NextPage extends Component {
 
     render() {
         return(
-            <View style={[AppStyles.appContainer, AppStyles.containerCentered]}>
+            <View style={[AppStyles.flex1, AppStyles.whiteContainer, AppStyles.containerCentered]}>
                 <Text>{this.props.route.title}</Text>
             </View>
         );

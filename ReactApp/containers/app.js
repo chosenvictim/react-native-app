@@ -44,13 +44,16 @@ class AppContainer extends Component {
 
         return (
             <View style={[AppStyles.appContainer, AppStyles.container]}>
-                <NavigationBar
-                    title={this.props.title}
-                    statusBar={{style: 'light-content', hidden: false}}
-                    style={[AppStyles.navbar]}
-                    tintColor={AppConfig.primaryColor}
-                    leftButton={<NavbarElements.LeftButton onPress={leftButton.onPress} icon={leftButton.icon} />}
-                />
+                {
+                    route.index > 0 &&
+                    <NavigationBar
+                        title={<NavbarElements.Title title={route.title} />}
+                        statusBar={{style: 'light-content', hidden: false}}
+                        style={[AppStyles.navbar]}
+                        tintColor={AppConfig.primaryColor}
+                        leftButton={<NavbarElements.LeftButton onPress={leftButton.onPress} icon={leftButton.icon} />}
+                    />
+                }
                 <route.component navigator={navigator} route={route} {...route.passProps} />
             </View>
         );
