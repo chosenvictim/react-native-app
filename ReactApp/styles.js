@@ -35,6 +35,12 @@ module.exports = StyleSheet.create({
         width: AppConfig.windowWidth
     },
 
+    imageStyles: {
+        backgroundColor: "transparent",
+        maxWidth: 200,
+        maxHeight: 200
+    },
+
     /* Aligning items */
     rightAligned: {
         alignItems: 'flex-end'
@@ -67,7 +73,6 @@ module.exports = StyleSheet.create({
         fontSize: AppConfig.baseFontSize * 1.5,
         lineHeight: parseInt((AppConfig.baseFontSize * 1.5) + (AppConfig.baseFontSize * 0.5)),
         margin: 0,
-        marginTop: 4,
         marginBottom: 4,
         left: 0,
         right: 0,

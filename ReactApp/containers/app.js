@@ -42,7 +42,7 @@ export default class AppContainer extends Component {
         }
 
         return (
-            <View style={[AppStyles.appContainer, AppStyles.container]}>
+            <View style={[AppStyles.flex1, AppStyles.appContainer, AppStyles.container, {justifyContent:"space-between", alignItems:"stretch"}]}>
                 {
                     route.index > 0 &&
                     <NavigationBar
