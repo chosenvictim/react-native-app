@@ -13,7 +13,7 @@ import AppConfig from './config';
 
 module.exports = StyleSheet.create({
 	appContainer: {
-        backgroundColor: "#813964",
+        backgroundColor: "#813964"
 	},
     whiteContainer: {
         backgroundColor: "#FFFFFF"
@@ -24,20 +24,20 @@ module.exports = StyleSheet.create({
         position: 'relative',
         flex: 1,
         flexDirection: 'column',
-        backgroundColor: '#813964',
+        backgroundColor: '#813964'
     },
     containerCentered: {
         justifyContent: 'center',
-        alignItems: 'center',
+        alignItems: 'center'
     },
     windowSize: {
         height: AppConfig.windowHeight,
-        width: AppConfig.windowWidth,
+        width: AppConfig.windowWidth
     },
 
     /* Aligning items */
     rightAligned: {
-        alignItems: 'flex-end',
+        alignItems: 'flex-end'
     },
 
     /* Text Styles */
@@ -46,7 +46,7 @@ module.exports = StyleSheet.create({
         fontWeight: '500',
         color: AppConfig.textColor,
         fontSize: AppConfig.baseFontSize,
-        lineHeight: parseInt(AppConfig.baseFontSize + (AppConfig.baseFontSize * 0.5)),
+        lineHeight: parseInt(AppConfig.baseFontSize + (AppConfig.baseFontSize * 0.5))
     },
     h1: {
         fontFamily: AppConfig.baseFont,
@@ -106,66 +106,53 @@ module.exports = StyleSheet.create({
         color: "#FFFFFF",
         textAlign: "center",
         fontSize: AppConfig.baseFontSize,
-        lineHeight: parseInt(AppConfig.baseFontSize + (AppConfig.baseFontSize * 0.5)),
+        lineHeight: parseInt(AppConfig.baseFontSize + (AppConfig.baseFontSize * 0.5))
     },
 
     /* Helper Text Styles */
     centered:{
-        textAlign:'center',
+        textAlign:'center'
     },
     textRightAligned:{
-        textAlign:'right',
-
+        textAlign:'right'
     },
 
     /* Give me padding */
     paddingHorizontal:{
-        paddingHorizontal:20,
-
+        paddingHorizontal:20
     },
     paddingLeft:{
-        paddingLeft:20,
-
+        paddingLeft:20
     },
     paddingRight:{
-        paddingRight:20,
-
+        paddingRight:20
     },
     paddingVertical:{
-        paddingVertical:20,
-
+        paddingVertical:20
     },
     paddingTop:{
-        paddingTop:20,
-
+        paddingTop:20
     },
     paddingBottom:{
-        paddingBottom:20,
-
+        paddingBottom:20
     },
     paddingHorizontalSml:{
-        paddingHorizontal:10,
-
+        paddingHorizontal:10
     },
     paddingLeftSml:{
-        paddingLeft:10,
-
+        paddingLeft:10
     },
     paddingRightSml:{
-        paddingRight:10,
-
+        paddingRight:10
     },
     paddingVerticalSml:{
-        paddingVertical:10,
-
+        paddingVertical:10
     },
     paddingTopSml:{
-        paddingTop:10,
-
+        paddingTop:10
     },
     paddingBottomSml:{
-        paddingBottom:10,
-
+        paddingBottom:10
     },
 
     /* General Spacing */
@@ -177,39 +164,31 @@ module.exports = StyleSheet.create({
         height:1,
         backgroundColor:'transparent',
         marginTop:20,
-        marginBottom:20,
-
+        marginBottom:20
     },
 
     /* Grid */
     row:{
         left:0,
         right:0,
-        flexDirection:'row',
-
+        flexDirection:'row'
     },
     flex1:{
-        flex:1,
-
+        flex:1
     },
     flex2:{
-        flex:2,
-
+        flex:2
     },
     flex3:{
-        flex:3,
-
+        flex:3
     },
     flex4:{
-        flex:4,
-
+        flex:4
     },
     flex5:{
-        flex:5,
-
+        flex:5
     },
     flex6:{
-        flex:6,
-
+        flex:6
     }
 });
